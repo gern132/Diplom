@@ -1,0 +1,618 @@
+*{
+margin:0;
+}
+.body {
+    background-image: url("img1/main.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.vhod {
+width: 564px;
+height: 682px;
+background: rgba(255, 255, 255, 0.85);
+border-radius: 15px;
+margin: 0 auto;
+position: relative;
+top:calc(50% - 341px);
+
+}
+.text-hidden {
+    visibility: hidden;
+}
+
+.tvhod {
+    position: absolute;
+    left: 41px;
+    top: 22px;
+width: 55px;
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #686868;
+}
+
+.exist {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+width: 29px;
+height: 29px;
+font-size: 29px;
+color: #686868;
+cursor: pointer;
+}
+.ic1 {
+    position: absolute;
+    top: 76px;
+    left: 193px;
+   font-size: 200px;
+    color: #686868;
+}
+.username {
+    position: absolute;
+    top:343px ;
+    left: 26px;
+width: 230px;
+height: 46px;
+background: #D0D0D0;
+border-radius: 10px;
+border: none;
+box-shadow: 2px 2px 0px rgb(139, 139, 139);
+padding-left:15px;
+font-size: 18px;
+color: rgba(104, 104, 104, 0.75);
+
+}
+.password {
+    position: absolute;
+    top:343px ;
+    right: 26px;
+width: 230px;
+height: 46px;
+background: #D0D0D0;
+border-radius: 10px;
+border: none;
+box-shadow: 2px 2px 0px rgb(139, 139, 139);
+padding-left:15px;
+font-size: 18px;
+color: rgba(104, 104, 104, 0.75);
+}
+.sub {
+    position: absolute;
+    top: 459px;
+    right: 217px;
+width: 131px;
+height: 45px;
+background: #F0B110;
+border-radius: 3px;
+border: none;
+color: white;
+font-weight:bold;
+cursor: pointer;
+transition: 0.3s;
+}
+.sub:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px #616161;
+}
+.social1 {
+    list-style: none;
+    color: rgb(133, 133, 133);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-top: 95%;
+    cursor: pointer;
+    padding-top: 5%;  
+}
+
+.soc {
+width: 50px;
+height: 50px;
+border: solid 5px rgb(202, 202, 202);
+border-radius: 50%;
+display:flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 0px 0px black;
+transition: 0.5s;
+}
+.dopol {
+    position: relative;
+    top: 540px;
+    left: 202px;
+width: 160px;
+height: 21px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #757575;
+}
+.checkbox1 {
+    position: absolute;
+    top: 410px;
+    left: 33px;
+    width: 17px;
+    height: 17px;
+    background: #C4C4C4;
+}
+.checltext {
+    position: absolute;
+    bottom:255px ;
+    left: 61px;
+width: 95px;
+height: 17px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #686868;
+
+}
+.mainimg {
+    
+    
+}
+.login {
+    position: absolute;
+width: 55px;
+height: 22px;
+left: 1810px;
+top: 25px;
+
+font-family: Moul;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 33px;
+color: #FFFFFF;
+transition: 0.5s;
+cursor: pointer;
+}
+.login:hover {
+    transition: 0.5s;
+    text-shadow: 0px 0px 5px white;
+    
+}
+.logo {
+    position: absolute;
+    width: 79px;
+    height: 22px;
+    left: 1626px;
+    top: 25px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.up {  
+    color: #00FF38;  
+}
+
+.wordpress {
+    font-size: 27px;
+    position: absolute;
+    left: 1590px;
+    top: 27px;
+    color: #00FF38;
+    
+}
+.kontakti {
+    position: absolute;
+width: 113px;
+height: 44px;
+left: 753px;
+top: 15px;
+
+font-family: Moul;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 44px;
+color: #000000;
+transition: 0.3s;
+cursor: pointer;
+}
+.kontakti:hover {
+    transition: 0.3s;
+    color:rgb(255, 223, 116) ;
+}
+.vakansii {
+    position: absolute;
+width: 113px;
+height: 44px;
+left: 910px;
+top: 15px;
+font-family: Moul;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 44px;
+color: #000000;
+transition: 0.3s;
+cursor: pointer;
+}
+.vakansii:hover {
+    transition: 0.3s;
+    color:rgb(255, 223, 116) ;
+}
+.Oproekte {
+    position: absolute;
+width: 121px;
+height: 44px;
+left: 1067px;
+top: 17px;
+font-family: Moul;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 44px;
+transition: 0.3s;
+color: #000000;
+cursor: pointer;
+}
+.Oproekte:hover {
+    transition: 0.3s;
+    color:rgb(255, 223, 116) ; 
+}
+.poleregistra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+width: 223px;
+height: 72px;
+left: 228px;
+top: 445px;
+border-radius: 50%;
+cursor: pointer;
+background: #E9BD22;
+border-radius: 36px;
+transition: 0.3s;
+}
+.poleregistra:hover {
+    transition: 0.3s;
+box-shadow: 0px 0px 15px #616161;
+}
+.registr {
+
+text-align: center;
+font-family: Moul;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+/* body */
+.med {
+    width:99.9%;
+    height:1800px;
+   
+    
+}
+.im1 {
+    position: absolute;
+width: 615px;
+height: 344px;
+left: 117px;
+top: 1121px;
+border-radius: 10px;
+}
+.im2 {
+    position: absolute;
+width: 325.1px;
+height: 354px;
+left: 1130px;
+top: 1374px;
+}
+.im3 {
+    position: absolute;
+width: 269px;
+height: 266px;
+left: 1455px;
+top: 1160px;
+font-size: 260px;
+color: #7F7F7F;
+}
+.im4 {
+    position: absolute;
+right: 2%;
+top: 40%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #F7BE29;
+}
+.im5 {
+    position: absolute;
+width: 740px;
+height: 56px;
+left: 589px;
+top: 1899px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #F7BE29;
+
+}
+.knop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+width: 223px;
+height: 72px;
+left: 855px;
+top: 1994px;
+background: #E9BD22;
+border-radius: 36px;
+transition: 0.3s;
+cursor: pointer;
+}
+.knop:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px #616161;
+}
+.im6 {
+text-align: center;
+font-family: Moul;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 44px;
+color: #FFFFFF;
+
+}
+.im7 {
+    position: absolute;
+width: 614px;
+height: 390px;
+left: 654px;
+top: 2113px;
+mix-blend-mode: normal;
+border-radius: 10px;
+}
+.footer {
+width: 100%;
+height: 195px;
+background: #DCDCDC;
+}
+
+.social {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 38%;
+    cursor: pointer;
+    
+    padding-top: 3%; 
+}
+.socilal__item {
+    width: 50px;
+    height: 50px;
+   border: solid 5px white;
+   border-radius: 50%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0px 0px 0px black;
+   transition: 0.5s;
+}
+
+
+.facebook-f:hover {
+    transition: 0.5s;
+    color: rgb(36, 68, 250);
+    border: solid 5px rgb(36, 68, 250);
+    box-shadow: 0px 0px 20px rgb(36, 68, 250);
+}
+
+.google:hover {
+    transition: 0.5s;
+    color: rgb(89, 158, 92);
+    border: solid 5px rgb(89, 158, 92);
+    box-shadow: 0px 0px 20px rgb(89, 158, 92);  
+}
+
+.instagram:hover {
+    transition: 0.5s;
+    color: rgb(219, 99, 203);
+    border: solid 5px  rgb(219, 99, 203);
+    box-shadow: 0px 0px 20px rgb(219, 99, 203);
+}
+
+
+.vk:hover {
+    transition: 0.5s;
+    color: rgb(48, 138, 241);
+    border: solid 5px rgb(48, 138, 241);
+    box-shadow: 0px 0px 20px rgb(48, 138, 241);
+}
+
+.twitter:hover {
+    transition: 0.5s;
+    color: rgb(64, 218, 238);
+    border: solid 5px  rgb(64, 218, 238);
+    box-shadow: 0px 0px 20px rgb(64, 218, 238);
+}
+.appstore {
+    position: absolute;
+    margin-top:-65px;
+    margin-left:102px ;
+width: 213px;
+height: 72px;
+cursor: pointer;
+background:  #DCDCDC;
+border: 0.5px solid #7777772f;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+transition: 0.2s;
+}
+.appstore:hover {
+    transition: 0.2s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); 
+}
+.apple {
+    position: absolute;
+left: 15px;
+top:5px;
+color: #464646;
+font-size: 55px;
+}
+.zagruz {
+    position: absolute;
+    left: 88px;
+    top: 15px;
+width: 83px;
+height: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #3E3E3E;
+}
+.app {
+    position: absolute;
+    left: 85px;
+    top: 29px;
+width: 105px;
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #3E3E3E;
+}
+.googlestore {
+    position: absolute;
+    margin-top:-65px;
+    margin-left:365px ;
+width: 213px;
+height: 72px;
+cursor: pointer;
+background: #DCDCDC;
+border: 0.5px solid #7777772f;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+transition: 0.2s;
+}
+.googlestore:hover {
+    transition: 0.2s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); 
+}
+.playstore {
+    position: absolute;
+    left: 15px;
+    top:7px;
+font-size: 50px;
+color: #464646;
+}
+.zagruz1 {
+    position: absolute;
+    left: 75px;
+    top: 15px;
+width: 83px;
+height: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #3E3E3E;
+}
+.app1 {
+    position: absolute;
+    left: 75px;
+    top: 29px;
+width: 127px;
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #3E3E3E;
+}
+.text {
+    position: absolute;
+    bottom: -205%;
+    left: 40%;
+width: 392px;
+height: 35px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #000000;
+
+}
+.g2020 {
+    
+width: 392px;
+height: 35px;
+font-family: Roboto;
+font-style: normal;
+font-weight:300 ;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #000000; 
+}
+.wp {
+    position: absolute;
+    left: 85%;
+    top: 287%;
+width: 146px;
+height: 35px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+.fottext {
+    position: absolute;
+    left: 88.9%;
+    top: 292%; 
+    line-height: 33px; 
+    font-size: 20px;
+    color: #3E3E3E; 
+}
