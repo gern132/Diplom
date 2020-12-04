@@ -14,13 +14,151 @@ margin:0;
     border-radius: 15px;
     
     position: absolute;
-    top: ;
     left:calc(50% - 282px);
     top:calc(50% - 341px);
 }
 .text-hidden1 {
-    /* visibility: hidden; */
+    visibility: hidden;
 }
+.exist1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+width: 29px;
+height: 29px;
+font-size: 29px;
+color: #686868;
+cursor: pointer;
+}
+.imya {
+    position: absolute;
+    top: 128px;
+    right:34px;
+    width: 245px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.imya1 {
+    position: absolute; 
+    top: 133px;
+    left: 49px;
+    font-family: Roboto;
+    font-weight:600;
+}
+.familia {
+    position: absolute;
+    top:208px;
+    right:34px;
+    width: 245px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000; 
+}
+.familia1 {
+    position: absolute; 
+    top:213px;
+    left: 49px; 
+    font-family: Roboto;
+    font-weight:600;
+}
+.password1 {
+    position: absolute;
+    top:287px;
+    right:34px;
+    width: 245px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000; 
+}
+.password1-0 {
+    position: absolute;
+    top:292px;
+    left:49px;
+    font-family: Roboto;
+    font-weight:600;
+}
+.password2 {
+    position: absolute;
+    top:367px;
+    right:34px;
+    width: 245px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000; 
+}
+.password2-1 {
+    position: absolute;
+    top:372px;
+    left:49px; 
+    font-family: Roboto;
+    font-weight:600;
+}
+.sub1 {
+    position: absolute;
+    top: 459px;
+    right: calc(50% - 102.5px);
+width: 205px;
+height: 45px;
+background: #F0B110;
+border-radius: 3px;
+border: none;
+color: white;
+cursor: pointer;
+font-family: Roboto;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+.sub1:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px #616161;
+} 
+.dopol1 {
+    position: relative;
+    top: 550px;
+    left: 202px;
+width: 160px;
+height: 21px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #757575;
+}
+.social2 {
+    list-style: none;
+    color: rgb(133, 133, 133);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-top: 97%;
+    cursor: pointer;
+    padding-top: 5%;   
+}
+
 .vhod {
 width: 564px;
 height: 682px;
