@@ -404,16 +404,12 @@ cursor: pointer;
     color: #00FF38;
     
 }
-.zaglav {
-    display: flex;
-    text-align: center;
-}
 .kontakti {
-    margin: 0.6% 0 0 37%;
+    position: absolute;
 width: 113px;
 height: 44px;
-
-
+left: 38%;
+top: 1.4%;
 
 font-family: Moul;
 font-style: normal;
@@ -429,11 +425,11 @@ cursor: pointer;
     color:rgb(255, 223, 116) ;
 }
 .vakansii {
-    margin: 0.6% auto;
+    position: absolute;
 width: 113px;
 height: 44px;
-
-
+left: 47%;
+top: 1.4%;
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
@@ -448,10 +444,11 @@ cursor: pointer;
     color:rgb(255, 223, 116) ;
 }
 .Oproekte {
-    margin: 0.6% 37% 0 0;
+    position: absolute;
+width: 121px;
 height: 44px;
-
-
+right: 38%;
+top: 1.4%;
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
@@ -466,9 +463,9 @@ cursor: pointer;
     color:rgb(255, 223, 116) ; 
 }
 .poleregistra {
-position: relative;
-top: 45%;
-left:calc(50% - 38%);
+position: absolute;
+top: 50%;
+left: 12%;
 max-width: 223px;
 max-height: 72px;
 width: 100%;
