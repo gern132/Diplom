@@ -404,12 +404,16 @@ cursor: pointer;
     color: #00FF38;
     
 }
+.zaglav {
+    display: flex;
+    text-align: center;
+}
 .kontakti {
-    position: absolute;
+    margin: 0.6% 0 0 37%;
 width: 113px;
 height: 44px;
-left: 753px;
-top: 15px;
+
+
 
 font-family: Moul;
 font-style: normal;
@@ -425,11 +429,11 @@ cursor: pointer;
     color:rgb(255, 223, 116) ;
 }
 .vakansii {
-    position: absolute;
+    margin: 0.6% auto;
 width: 113px;
 height: 44px;
-left: 910px;
-top: 15px;
+
+
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
@@ -444,11 +448,10 @@ cursor: pointer;
     color:rgb(255, 223, 116) ;
 }
 .Oproekte {
-    position: absolute;
-width: 121px;
+    margin: 0.6% 37% 0 0;
 height: 44px;
-left: 1067px;
-top: 17px;
+
+
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
