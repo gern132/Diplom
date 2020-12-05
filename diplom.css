@@ -8,7 +8,8 @@ margin:0;
     height: 100vh;
 }
 .vhod1 {
-    width: 564px;
+    max-width: 564px;
+    width:100%;
     height: 682px;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
@@ -462,14 +463,11 @@ cursor: pointer;
     color:rgb(255, 223, 116) ; 
 }
 .poleregistra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+position: relative;
+top: 50%;
+left: 12%;
 width: 223px;
 height: 72px;
-left: 228px;
-top: 445px;
 border-radius: 50%;
 cursor: pointer;
 background: #E9BD22;
@@ -481,16 +479,13 @@ transition: 0.3s;
 box-shadow: 0px 0px 15px #616161;
 }
 .registr {
-
 text-align: center;
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
-line-height: 44px;
-
+line-height: 70px;
 color: #FFFFFF;
-
 }
 /* body */
 .med {
