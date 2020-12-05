@@ -35,3 +35,13 @@ esc1.addEventListener('click' , reg1Click);
 function reg1Click() {
 okno1.classList.add('text-hidden1');
 }
+function switcher() {
+if (okno.classList('text-hidden') = true) {
+    okno1.classList.add('text-hidden1') = false;
+
+}else if (okno.classList('text-hidden') = false ) {
+    okno1.classList.remove('text-hidden1') = true;
+}
+}
+
+switcher();

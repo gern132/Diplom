@@ -465,7 +465,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
 width: 223px;
 height: 72px;
 left: 228px;
