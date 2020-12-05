@@ -467,8 +467,8 @@ cursor: pointer;
 }
 .poleregistra {
 position: relative;
-top: 50%;
-left: 12%;
+top: 45%;
+left:calc(50% - 720px);
 max-width: 223px;
 max-height: 72px;
 width: 100%;
