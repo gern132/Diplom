@@ -16,15 +16,14 @@ height: 55px;
 /* border: 1px solid black; */
 }
 .vhod1 {
-    max-width: 564px;
-    width:100%;
-    height: 682px;
+width: 450px;
+height: 550px;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     
     position: absolute;
-    left:calc(50% - 282px);
-    top:calc(50% - 341px);
+    left:calc(50% - 225px);
+    top:calc(50% - 275px);
 }
 .text-hidden1 {
     visibility: hidden;
@@ -41,9 +40,9 @@ cursor: pointer;
 }
 .imya {
     position: absolute;
-    top: 128px;
+    top: 108px;
     right:34px;
-    width: 245px;
+    width: 200px;
     height: 21px;
     font-family: Roboto;
     font-style: normal;
@@ -55,16 +54,17 @@ cursor: pointer;
 }
 .imya1 {
     position: absolute; 
-    top: 133px;
+    top: 113px;
     left: 49px;
     font-family: Roboto;
     font-weight:600;
+    font-size: 14px;
 }
 .familia {
     position: absolute;
-    top:208px;
+    top:168px;
     right:34px;
-    width: 245px;
+    width: 200px;
     height: 21px;
     font-family: Roboto;
     font-style: normal;
@@ -76,16 +76,17 @@ cursor: pointer;
 }
 .familia1 {
     position: absolute; 
-    top:213px;
+    top:173px;
     left: 49px; 
     font-family: Roboto;
     font-weight:600;
+    font-size: 14px;
 }
 .password1 {
     position: absolute;
-    top:287px;
+    top:228px;
     right:34px;
-    width: 245px;
+    width: 200px;
     height: 21px;
     font-family: Roboto;
     font-style: normal;
@@ -97,16 +98,17 @@ cursor: pointer;
 }
 .password1-0 {
     position: absolute;
-    top:292px;
+    top:233px;
     left:49px;
     font-family: Roboto;
     font-weight:600;
+    font-size: 14px;
 }
 .password2 {
     position: absolute;
-    top:367px;
+    top:288px;
     right:34px;
-    width: 245px;
+    width: 200px;
     height: 21px;
     font-family: Roboto;
     font-style: normal;
@@ -118,14 +120,15 @@ cursor: pointer;
 }
 .password2-1 {
     position: absolute;
-    top:372px;
+    top:293px;
     left:49px; 
     font-family: Roboto;
     font-weight:600;
+    font-size: 14px;
 }
 .sub1 {
     position: absolute;
-    top: 359px;
+    top: 370px;
     right: calc(50% - 102.5px);
 width: 205px;
 height: 45px;
@@ -145,14 +148,14 @@ text-align: center;
 } 
 .dopol1 {
     position: relative;
-    top: 550px;
-    left: 202px;
+    top: 445px;
+    left:calc(50% - 80px);
 width: 160px;
 height: 21px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 14px;
 line-height: 21px;
 text-align: center;
 color: #757575;
@@ -190,7 +193,7 @@ height: 28px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 18px;
 line-height: 28px;
 text-align: center;
 color: #686868;
@@ -510,54 +513,54 @@ color: #FFFFFF;
 /* body */
 .med {
     width:99.9%;
-    height:1800px;
-   
-    
+    height:1800px;   
 }
 .im1 {
-    position: absolute;
-width: 615px;
-height: 344px;
-left: 117px;
-top: 1121px;
+max-width: 500px;
+max-height: 300px;
 border-radius: 10px;
+float: left;
+margin-left:300px;
+margin-top: 100px;
 }
-.im2 {
-    position: absolute;
-width: 325.1px;
-height: 354px;
-left: 1130px;
-top: 1374px;
+.im2 { 
+max-width: 250px;
+max-height: 300px;
+float: right;
+margin-top: 400px;
+margin-right: 0px;
 }
 .im3 {
-    position: absolute;
-width: 269px;
-height: 266px;
-left: 1455px;
-top: 1160px;
-font-size: 260px;
+font-size: 230px;
 color: #7F7F7F;
+float: right;
+margin-top: 200px;
+margin-right: 300px;
 }
+
 .im4 {
-    position: absolute;
-right: 2%;
-top: 40%;
+    margin-top: -160px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 22px;
 line-height: 28px;
 text-align: center;
-
 color: #F7BE29;
 }
+.connect {
+    width: 100%;
+    height: 750px;   
+}
+.con {
+    height: 800px;
+    width: 100%;
+}
 .im5 {
-    position: absolute;
+    margin: 0 auto;
+    margin-top: 120px;
 width: 740px;
 height: 56px;
-left: 589px;
-top: 1899px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -571,11 +574,10 @@ color: #F7BE29;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+   margin: 0 auto; 
+   margin-top:50px ;
 width: 223px;
 height: 72px;
-left: 855px;
-top: 1994px;
 background: #E9BD22;
 border-radius: 36px;
 transition: 0.3s;
@@ -596,13 +598,16 @@ color: #FFFFFF;
 
 }
 .im7 {
-    position: absolute;
+    
 width: 614px;
 height: 390px;
-left: 654px;
-top: 2113px;
 mix-blend-mode: normal;
 border-radius: 10px;
+margin: 0 auto;
+}
+.photo {
+    text-align: center;
+    margin-top:30px ;
 }
 .footer {
 width: 100%;
@@ -670,8 +675,8 @@ background: #DCDCDC;
     box-shadow: 0px 0px 20px rgb(64, 218, 238);
 }
 .appstore {
-    position: absolute;
-    margin-top:-65px;
+    display: inline-block;
+    margin-bottom:10px;
     margin-left:102px ;
 width: 213px;
 height: 72px;
@@ -688,16 +693,14 @@ transition: 0.2s;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); 
 }
 .apple {
-    position: absolute;
-left: 15px;
-top:5px;
 color: #464646;
 font-size: 55px;
+display: inline-block;
+position: relative;
+bottom: 55px;
+left: 15px;
 }
 .zagruz {
-    position: absolute;
-    left: 88px;
-    top: 15px;
 width: 83px;
 height: 18px;
 font-family: Roboto;
@@ -706,11 +709,10 @@ font-weight: normal;
 font-size: 15px;
 line-height: 18px;
 color: #3E3E3E;
+margin-left: 80px;
+margin-top: 13px;
 }
 .app {
-    position: absolute;
-    left: 85px;
-    top: 29px;
 width: 105px;
 height: 28px;
 font-family: Roboto;
@@ -719,11 +721,17 @@ font-weight: normal;
 font-size: 24px;
 line-height: 28px;
 color: #3E3E3E;
+margin-left: 78px;
+}
+.soft {
+height: 80px;
+width:590px;
+/* border: 1px solid black; */
+margin-top:-55px ;
 }
 .googlestore {
-    position: absolute;
-    margin-top:-65px;
-    margin-left:365px ;
+    display: inline-block;
+    margin-left:50px ;
 width: 213px;
 height: 72px;
 cursor: pointer;
@@ -739,16 +747,14 @@ transition: 0.2s;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); 
 }
 .playstore {
-    position: absolute;
-    left: 15px;
-    top:7px;
 font-size: 50px;
 color: #464646;
+display: inline-block;
+position: relative;
+bottom: 55px;
+left: 15px;
 }
 .zagruz1 {
-    position: absolute;
-    left: 75px;
-    top: 15px;
 width: 83px;
 height: 18px;
 font-family: Roboto;
@@ -757,11 +763,10 @@ font-weight: normal;
 font-size: 15px;
 line-height: 18px;
 color: #3E3E3E;
+margin-left: 80px;
+margin-top: 13px;
 }
 .app1 {
-    position: absolute;
-    left: 75px;
-    top: 29px;
 width: 127px;
 height: 28px;
 font-family: Roboto;
@@ -770,6 +775,8 @@ font-weight: normal;
 font-size: 24px;
 line-height: 28px;
 color: #3E3E3E;
+margin-left: 78px;
+margin-top: 0px;
 }
 .text {
     position: absolute;
@@ -821,4 +828,8 @@ color: #000000;
     line-height: 33px; 
     font-size: 20px;
     color: #3E3E3E; 
+}
+.mainfotter {
+    height: 195px;
+    width: 100%;
 }
