@@ -611,7 +611,7 @@ margin: 0 auto;
 }
 .footer {
 width: 100%;
-height: 195px;
+height: 250px;
 background: #DCDCDC;
 }
 
@@ -622,9 +622,11 @@ background: #DCDCDC;
     justify-content: space-between;
     width: 20%;
     margin-left: 38%;
+    margin-bottom:-180px;
+    margin-top:0px;
     cursor: pointer;
     
-    padding-top: 3%; 
+    padding-top: 8%; 
 }
 .socilal__item {
     width: 50px;
@@ -725,9 +727,9 @@ margin-left: 78px;
 }
 .soft {
 height: 80px;
-width:590px;
+width:100%;
 /* border: 1px solid black; */
-margin-top:-55px ;
+margin-top:-80px;
 }
 .googlestore {
     display: inline-block;
