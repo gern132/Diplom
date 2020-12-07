@@ -7,6 +7,10 @@ margin:0;
     width: 100%;
     height: 100vh;
 }
+.box1 {
+    max-width: 1920px;
+   
+}
 .vhod1 {
     max-width: 564px;
     width:100%;
@@ -357,11 +361,13 @@ color: #686868;
     
 }
 .login {
-    position: absolute;
+display: block;
+float: right;
+margin-right: 30px;
+margin-top: 15px;
 width: 55px;
 height: 22px;
-left: 1810px;
-top: 25px;
+
 
 font-family: Moul;
 font-style: normal;
@@ -378,11 +384,13 @@ cursor: pointer;
     
 }
 .logo {
-    position: absolute;
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
     width: 79px;
     height: 22px;
-    left: 1626px;
-    top: 25px;
+    
     
     font-family: Roboto;
     font-style: normal;
@@ -398,18 +406,20 @@ cursor: pointer;
 
 .wordpress {
     font-size: 27px;
-    position: absolute;
-    left: 1590px;
-    top: 27px;
-    color: #00FF38;
-    
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: #00FF38; 
 }
 .kontakti {
-    position: absolute;
+    display: block;
+    margin-top: 6px;
+    margin-right: 23%;
+float: right;
 width: 113px;
 height: 44px;
-left: 38%;
-top: 1.4%;
+
 
 font-family: Moul;
 font-style: normal;
@@ -425,11 +435,13 @@ cursor: pointer;
     color:rgb(255, 223, 116) ;
 }
 .vakansii {
-    position: absolute;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    margin-right: 5%;
 width: 113px;
 height: 44px;
-left: 47%;
-top: 1.4%;
+
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
@@ -444,11 +456,12 @@ cursor: pointer;
     color:rgb(255, 223, 116) ;
 }
 .Oproekte {
-    position: absolute;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    margin-right: 5%;
 width: 121px;
 height: 44px;
-right: 38%;
-top: 1.4%;
 font-family: Moul;
 font-style: normal;
 font-weight: normal;
