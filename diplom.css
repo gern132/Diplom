@@ -7,6 +7,7 @@ margin:0;
     width: 100%;
     height: 100vh;
 }
+
 .box1 {
     /* max-width: 1920px; */
     display: flex;
@@ -27,6 +28,7 @@ height: 550px;
 }
 .text-hidden1 {
     visibility: hidden;
+    opacity: 1;
 }
 .exist1 {
     position: absolute;
@@ -496,6 +498,7 @@ cursor: pointer;
 background: #E9BD22;
 border-radius: 36px;
 transition: 0.3s;
+outline: none;
 }
 .poleregistra:hover {
     transition: 0.3s;
@@ -833,4 +836,17 @@ color: #000000;
 .mainfotter {
     height: 195px;
     width: 100%;
+}
+.arrow {
+    font-size:50px ;
+    left: 95%;
+    top: 93%;
+    position: fixed;
+    color: rgb(255, 235, 56);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.arrow-hidden {
+    transition: 0.1s;
+    visibility: hidden;
 }
