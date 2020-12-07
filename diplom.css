@@ -8,8 +8,12 @@ margin:0;
     height: 100vh;
 }
 .box1 {
-    max-width: 1920px;
-   
+    /* max-width: 1920px; */
+    display: flex;
+    margin: 0 auto;
+width: 600px;
+height: 55px;
+/* border: 1px solid black; */
 }
 .vhod1 {
     max-width: 564px;
@@ -415,7 +419,8 @@ cursor: pointer;
 .kontakti {
     display: block;
     margin-top: 6px;
-    margin-right: 450px;
+    margin-right: 5%;
+    margin-left: 35%;
 float: right;
 width: 113px;
 height: 44px;
@@ -459,7 +464,7 @@ cursor: pointer;
     display: block;
     float: right;
     margin-top: 6px;
-    margin-right: 5%;
+    /* margin-right: 5%; */
 width: 121px;
 height: 44px;
 font-family: Moul;
