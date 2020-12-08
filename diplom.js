@@ -1,5 +1,6 @@
 let login = document.querySelector('.login');
 let okno = document.querySelector('.vhod');
+let overlays = document.querySelector('.main');
 
 login.addEventListener('click' , loginclick);
 
@@ -7,7 +8,7 @@ login.addEventListener('click' , loginclick);
 function loginclick() {
     document.getElementsByTagName("ul")[0].style.transition = '0s';
     okno.classList.toggle('text-hidden');
-    
+    overlays.classList.toggle('open1');
 }
 
 let esc = document.querySelector('.exist');
@@ -16,6 +17,7 @@ esc.addEventListener('click' , escClick);
 
 function escClick() {
     okno.classList.add('text-hidden');
+    overlays.classList.add('open1');
 }
 
 let registr = document.querySelector('.poleregistra');
@@ -26,6 +28,7 @@ registr.addEventListener('click' , regClick);
 
 function regClick() {
     okno1.classList.toggle('text-hidden1');
+    overlays.classList.toggle('open1');
 }
 
 let esc1 = document.querySelector('.exist1')
@@ -34,6 +37,7 @@ esc1.addEventListener('click' , reg1Click);
 
 function reg1Click() {
 okno1.classList.add('text-hidden1');
+overlays.classList.add('open1');
 }
 // смена экранов!
 // function switcher() {
@@ -54,6 +58,7 @@ let up = document.querySelector('.body');
 secreg.addEventListener('click' , secclick);
 
 function secclick() {
+    overlays.classList.toggle('open1');
     win1.classList.toggle('text-hidden1');
     window.scrollTo({
         top: 0,
@@ -85,28 +90,6 @@ window.scrollTo({
 });    
 }
 
+//-----closewin
 
-// const getTop = () => window.pageYOffset || document.documentElement.scrollTop;
-// let strela = document.querySelector('.arrow');
-// let hide = document.querySelector('.arrow-hidden');
-// let check = 300;
 
-// const updateDashoffset = () => {};
-// window.addEventListener('scroll', () => {
-//     updateDashoffset();
-
-// if (getTop() > check) {
-//     hide.classList.remove('arrow-hidden')
-// }else {
-//     hide.classList.add('arrow-hidden')
-// }
-// });
-
-// strela.addEventListener('click' , strelaClick);
-
-// function strelaClick() {
-// window.scrollTo({
-//     top: 0,
-//     behavior: 'smooth'
-// });    
-// }
