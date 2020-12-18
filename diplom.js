@@ -39,6 +39,18 @@ function reg1Click() {
 okno1.classList.add('text-hidden1');
 overlays.classList.add('open1');
 }
+// смена экранов!
+// function switcher() {
+// if (okno.classList('text-hidden') = true) {
+//     okno1.classList.add('text-hidden1') = false;
+
+// }else if (okno.classList('text-hidden') = false ) {
+//     okno1.classList.remove('text-hidden1') = true;
+// }
+// }
+
+// switcher();
+//-------------
 
 let secreg = document.querySelector('.knop');
 let win1 = document.querySelector('.vhod1');
