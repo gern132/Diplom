@@ -95,3 +95,89 @@ margin-bottom: 0px;
 .header__text_up {
     font-size: calc(8px + 8 * (100vw / 1920));
 }
+/* --------ads-------- */
+.ads {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 8%;
+    font-family: Roboto;
+}
+.ads__block {
+    width: 400px;
+}
+.ads__text {
+    font-size: calc(14px + 10 * (100vw / 1920));
+    margin-bottom: 8%;
+    margin-right: 10px;
+}
+.ads__border {
+width: calc(120px + 169 * (100vw / 1920));
+height: calc(80px + 55 * (100vw / 1920));
+background: #EDEDED;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: 0 auto;
+}
+
+/* ----ad_1---- */
+.ads__first {
+    font-size: calc(14px + 10 * (100vw / 1920));
+    color: #2D2D2D;
+    margin-left: 5%;
+    
+}
+.ads__salary {
+    font-size: calc(8px + 10 * (100vw / 1920));
+    color: #ebba3f;
+    margin-left: 5%;
+}
+.ads__location {
+    font-size: calc(8px + 10 * (100vw / 1920));
+    color: #666666;
+    margin-left: 5%;
+}
+.ads__icon {
+    font-size: calc(16px + 20 * (100vw / 1920));
+    color: #EFBC05;
+}
+.ads_position1 {
+    margin-left:23%;
+}
+/* ----ad_2---- */
+.ads__pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads__img {
+    width: calc(100px + 80 * (100vw / 1920));
+    height: calc(35px + 25 * (100vw / 1920));
+}
+.ads_position2 {
+    margin-left:8%;  
+}
+/* ----ad_3---- */
+
+.ads__profession {
+    font-size: calc(24px + 12 * (100vw / 1920));
+    color: #2D2D2D;
+    margin-left: 15%;
+}
+.ads__amount {
+    font-size: calc(8px + 10 * (100vw / 1920));
+    color: #666666;
+    margin: 6% 0 0 5% ; 
+    text-align: start;
+}
+.ads_position3 {
+    margin-left:10%;  
+}
+/* ----ADAPTIV ADS---- */
+@media (max-width:320px) {
+    .ads__text {
+        
+    }    
+}
