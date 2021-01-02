@@ -97,12 +97,12 @@ margin-bottom: 0px;
 }
 /* --------ads-------- */
 .ads {
-    max-width: 1280px;
+    max-width: 1500px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-top: 8%;
+    padding-top: 5%;
     font-family: Roboto;
 }
 .ads__block {
@@ -180,4 +180,103 @@ margin: 0 auto;
     .ads__text {
         
     }    
+}
+/* ----search---- */
+.search {
+    padding-top: 3%;
+}
+.search__block {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.search__pole {
+height: calc(20px + 45 * (100vw / 1920));
+width: calc(300px + 1100 * (100vw / 1920));
+background: #e2e2e2;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px 0 0 50px;
+} 
+.search__input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: calc(10px + 8 * (100vw / 1920));
+    width: 72%;
+    margin-left: 5%;
+}
+.search__icon {
+    font-size: calc(10px + 15 * (100vw / 1920));
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.search__button {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search__position {
+    height: calc(20px + 45 * (100vw / 1920));
+    width: 130px;
+    background: #FFD056;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search__text {
+color: white;
+font-size: calc(14px + 22 * (100vw / 1920));
+font-family: Roboto;
+}
+/* ---jobs--- */
+.ads_1 {
+    max-width: calc(320px + 960 * (100vw / 1920));
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: Roboto;
+    border: 1px solid black;
+}
+.ads__block1 {
+    width: 400px;
+    padding-top: 3.5%;
+}
+
+.ads__border1 {
+width: calc(60px + 229 * (100vw / 1920));
+height: calc(40px + 95 * (100vw / 1920));
+background: #EDEDED;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: 0 auto;
+}
+
+.ads__first1 {
+    font-size: calc(7px + 17 * (100vw / 1920));
+    color: #2D2D2D;
+    margin-left: 5%;
+    padding-bottom: 10%;
+}
+.ads__salary1 {
+    font-size: calc(4px + 14 * (100vw / 1920));
+    color: #ebba3f;
+    margin-left: 5%;
+}
+.ads__location1 {
+    font-size: calc(4px + 14 * (100vw / 1920));
+    color: #666666;
+    margin-left: 5%;
+}
+.ads__icon1 {
+    font-size: calc(8px + 28 * (100vw / 1920));
+    color: #EFBC05;
+}
+.ads_position_1 {
+    margin-left:23%;  
 }
