@@ -23,7 +23,6 @@ body {
 }
 .header__circle {
 display: inline-block;
-/* margin-right: 12px; */
 }
 
 .header__text {
@@ -40,7 +39,6 @@ display: inline-block;
 
 .header__button {
     display: inline-block;
-    /* margin-right: 47px; */
 }
 .header__button_text {
 color: #000000;
@@ -241,10 +239,9 @@ font-family: Roboto;
     flex-wrap: wrap;
     margin: 0 auto;
     font-family: Roboto;
-    border: 1px solid black;
 }
 .ads__block1 {
-    width: 400px;
+    width: calc(80px + 270 * (100vw / 1920));
     padding-top: 3.5%;
 }
 
@@ -258,7 +255,7 @@ margin: 0 auto;
 }
 
 .ads__first1 {
-    font-size: calc(7px + 17 * (100vw / 1920));
+    font-size: calc(7px + 14 * (100vw / 1920));
     color: #2D2D2D;
     margin-left: 5%;
     padding-bottom: 10%;
@@ -278,5 +275,5 @@ margin: 0 auto;
     color: #EFBC05;
 }
 .ads_position_1 {
-    margin-left:23%;  
+    /* margin-left:23%;   */
 }
