@@ -255,7 +255,7 @@ margin: 0 auto;
 }
 
 .ads__first1 {
-    font-size: calc(7px + 14 * (100vw / 1920));
+    font-size: calc(5px + 16 * (100vw / 1920));
     color: #2D2D2D;
     margin-left: 5%;
     padding-bottom: 10%;
