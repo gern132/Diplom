@@ -277,3 +277,95 @@ margin: 0 auto;
 .ads_position_1 {
     /* margin-left:23%;   */
 }
+
+/* -----UNDERLINE----- */
+
+.underLine {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+.underLine__style {
+    display: inline-block;
+    border: none; 
+    background-color: #000000; 
+    color: #000000; 
+    height: 2px; 
+    width: calc(50px + 807 *(100vw / 1920));
+}
+
+/* -----Professions----- */
+
+.center {
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+.center__block {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.center__button {
+    width: 350px;
+    height: 70px;
+    border-radius: 3px;
+    background: #FFD056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.center_button-text {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #FFF3F3;
+}
+.center__block-arrow {
+    width: 320px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_arrow {
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.center_arrow1 {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.center__underArrow {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.block {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block__mini {
+    width: 443px;
+    height: 457px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #000000;
+}
+.block_text {
+    padding-top:15px ;
+}
+.block_text:hover {
+    color: rgb(28, 115, 255);
+}
