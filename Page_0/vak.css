@@ -289,8 +289,8 @@ margin: 0 auto;
 .underLine__style {
     display: inline-block;
     border: none; 
-    background-color: #000000; 
-    color: #000000; 
+    background-color: #686868; 
+    color: #686868; 
     height: 2px; 
     width: calc(50px + 807 *(100vw / 1920));
 }
@@ -298,20 +298,21 @@ margin: 0 auto;
 /* -----Professions----- */
 
 .center {
-    width: 1400px;
+    width: 100%;
     height: 600px;
     margin: 0 auto;
 }
 .center__block {
-    width: 1000px;
-    height: 80px;
+    width: calc(100px + 900 * (100vw / 1920));
+    height: calc(30px + 50 * (100vw / 1920));
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .center__button {
-    width: 350px;
-    height: 70px;
+    width: calc(50px + 300 * (100vw / 1920));
+    height: calc(20px + 50 * (100vw / 1920));
     border-radius: 3px;
     background: #FFD056;
     display: flex;
@@ -321,7 +322,7 @@ margin: 0 auto;
 }
 .center_button-text {
     font-family: Roboto, sans-serif;
-    font-size: 36px;
+    font-size: calc(5px + 28 * (100vw / 1920));
     color: #FFF3F3;
 }
 .center__block-arrow {
@@ -332,15 +333,23 @@ margin: 0 auto;
     align-items: center;
 }
 .center_arrow {
-    margin-top: 40px;
-    margin-right: 10px;
+    width: calc(5px + 25 * (100vw / 1920));
+    margin-top: 9%;
+    margin-right: 3%;
 }
 .center_arrow1 {
-    margin-top: 40px;
-    margin-left: 10px;
+    width: calc(5px + 25 * (100vw / 1920));
+    margin-top: 9%;
+    margin-left: 3%;
+}
+.center_underArrow {
+    width: calc(10px + 20 * (100vw / 1920));
+}
+.center_line {
+    width: calc(25px + 275 * (100vw / 1920)); 
 }
 .center__underArrow {
-    width: 1000px;
+    width: calc(100px + 900 * (100vw / 1920));
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -348,23 +357,24 @@ margin: 0 auto;
 } 
 .block {
     width: 100%;
-    height: 470px;
+    height: calc(150px + 320 * (100vw / 1920));
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .block__mini {
-    width: 443px;
-    height: 457px;
+    width: calc(50px + 440 * (100vw / 1920));
+    height: calc(150px + 307 * (100vw / 1920));
     display: flex;
+    justify-content: space-around;
     text-align: center;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
-    font-size: 24px;
-    color: #000000;
 }
 .block_text {
-    padding-top:15px ;
+    font-family: Roboto, sans-serif;
+    font-size: calc(5px + 19 * (100vw / 1920));
+    padding-top:calc(5px + 10 * (100vw / 1920));
+    color: #000000;
 }
 .block_text:hover {
     color: rgb(28, 115, 255);
