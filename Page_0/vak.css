@@ -4,10 +4,7 @@
 body {
     background: url(img/footer.jpg) no-repeat 100.5% 90.98%  ,
                 url(img/screp.jpg) no-repeat -20% 8%,
-                url(img/list.jpg) no-repeat 122% 7.5%;
-                
-
-                
+                url(img/list.jpg) no-repeat 122% 7.5%;               
 }
 .header {
     width: 100%;
@@ -399,11 +396,11 @@ margin: 0 auto;
 }
 .footer-text1 {
     font-family: Roboto, sans-serif;
-    font-size: 36px;
+    font-size: calc(8px + 28 * (100vw / 1920));
 }
 .footer-text2 {
     font-family: Roboto, sans-serif;
-    font-size: 24px;
+    font-size: calc(5px + 19 * (100vw / 1920));
 }
 .footer__buttonblock{
     width: 100%;
@@ -411,8 +408,8 @@ margin: 0 auto;
     justify-content: center;
 }
 .footer__button {
-    width: 400px;
-    height: 100px;
+    width: calc(50px + 350 * (100vw / 1920));
+    height: calc(20px + 80 * (100vw / 1920));
     background: #F0B110;
     border-radius: 3px;
     text-align: center;
@@ -424,12 +421,7 @@ margin: 0 auto;
 }
 .footer-text3 {
     font-family: Roboto, sans-serif;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-.footer-text4 {
-    font-family: Roboto, sans-serif;
-    font-size: 30px;  
+    font-size: calc(5px + 25 * (100vw / 1920));
     color: #FFFFFF;
 }
 .footer__img {
@@ -501,7 +493,9 @@ margin: 0 auto;
     box-shadow: 0px 0px 0px black;
     transition: 0.5s;
     }
-    
+    .fab {
+        font-size: 20px;
+    }
     
     .facebook-f:hover {
         transition: 0.5s;
@@ -566,4 +560,150 @@ margin: 0 auto;
     padding-top: 3%;
     padding-left: 20%;
     cursor: pointer;
+}
+.panel-imgapple {
+    width: 50px;
+}
+@media (max-width: 1463px) {
+    .panel__store {
+        width: 150px;
+        height: 50px;
+    }
+    .panel-imgapple {
+        width: 30px;
+    }
+    .panel-download {
+        font-size: 12px;
+    }
+    .panel-store {
+        font-size: 17px;
+    }
+    .socilal__item {
+        width: 45px;
+        height: 45px;
+    }
+    .panel-head {
+        font-size: 24px;
+    }
+    .panel-advertising {
+        font-size: 18px;
+    }
+    body {
+        background: url(img/footer.jpg) no-repeat 100.5% 90.98%,
+                    url(img/screp.jpg) no-repeat -20% 8%,    
+    }
+}
+@media (max-width: 1218px) {
+    .panel {
+        width: 100%;
+        height: 150px;
+    }
+    .panel__store {
+        width: 120px;
+        height: 40px;
+    }
+    .panel-imgapple {
+        width: 25px;
+    }
+    .panel-download {
+        font-size: 10px;
+    }
+    .panel-store {
+        font-size: 15px;
+    }
+    .socilal__item {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+    }
+    .panel-head {
+        font-size: 20px;
+    }
+    .panel-advertising {
+        font-size: 13px;
+    }
+    body {
+        background: url(img/screp.jpg) no-repeat -20% 8%;   
+    }
+    .footer {
+        width: 100%;
+        height: 400px;
+        margin-top: 10%;
+    }
+    .fab {
+        font-size: 15px;
+    }
+}
+@media (max-width: 983px) {
+    .panel__store {
+        width: 120px;
+        height: 40px;
+    }
+    .panel-imgapple {
+        width: 25px;
+    }
+    .panel-download {
+        font-size: 10px;
+    }
+    .panel-store {
+        font-size: 15px;
+    }
+    .socilal__item {
+        width: 35px;
+        height: 35px;
+        border: solid 3px white;
+    }
+    .panel-head {
+        font-size: 18px;
+    }
+    .panel-advertising {
+        font-size: 12px;
+    }
+    .fab {
+        font-size: 10px;
+    }
+    body {
+        background: url(img/footer.jpg) no-repeat 100.5% 90.98%,
+                    url(img/screp.jpg) no-repeat -20% 8%,    
+    }
+}
+@media (max-width: 838px) {
+    .panel__store {
+        width: 110px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .panel__block-apps {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .panel-imgapple {
+        width: 20px;
+    }
+    .panel-download {
+        font-size: 8px;
+    }    
+    .socilal__item {
+        width: 30px;
+        height: 30px;
+        border: solid 3px white;
+    }
+    .panel-head {
+        font-size: 18px;
+    }
+    .panel-advertising {
+        font-size: 12px;
+    }
+    .fab {
+        font-size: 10px;
+    }
+    body {
+        background: none;  
+    }
+    .footer {
+        width: 100%;
+        height: 250px;
+        margin-top: 0px;
+    }
 }
