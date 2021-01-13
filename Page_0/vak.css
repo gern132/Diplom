@@ -443,5 +443,127 @@ margin: 0 auto;
 .panel {
     width: 100%;
     height: 200px;
-    background: #EDEDED;
+    background: rgb(199, 199, 199);
+    display: flex;
+}
+.panel__block-apps {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.panel__store {
+    width: 213px;
+    height: 72px;
+    background: #DCDCDC;
+    border: 1px solid #777777;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.panel-download {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #464646;
+}
+.panel-store {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #464646;
+}
+.panel__social {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social {
+    height: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    }
+    .socilal__item {
+    width: 60px;
+    height: 60px;
+    border: solid 5px white;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px black;
+    transition: 0.5s;
+    }
+    
+    
+    .facebook-f:hover {
+        transition: 0.5s;
+        color: rgb(36, 68, 250);
+        border: solid 5px rgb(36, 68, 250);
+        box-shadow: 0px 0px 20px rgb(36, 68, 250);
+    }
+    
+    .google:hover {
+        transition: 0.5s;
+        color: rgb(89, 158, 92);
+        border: solid 5px rgb(89, 158, 92);
+        box-shadow: 0px 0px 20px rgb(89, 158, 92);  
+    }
+    
+    .instagram:hover {
+        transition: 0.5s;
+        color: rgb(219, 99, 203);
+        border: solid 5px  rgb(219, 99, 203);
+        box-shadow: 0px 0px 20px rgb(219, 99, 203);
+    }
+    
+    
+    .vk:hover {
+        transition: 0.5s;
+        color: rgb(48, 138, 241);
+        border: solid 5px rgb(48, 138, 241);
+        box-shadow: 0px 0px 20px rgb(48, 138, 241);
+    }
+    
+    .twitter:hover {
+        transition: 0.5s;
+        color: rgb(64, 218, 238);
+        border: solid 5px  rgb(64, 218, 238);
+        box-shadow: 0px 0px 20px rgb(64, 218, 238);
+    }
+    .panel__services1 {
+        width: 12%;
+    height: 100%;
+    }
+.panel__services {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.panel-head {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+}
+.panel-color {
+    color: #6AFC8A;
+}
+.panel-advertising {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #3E3E3E;
+    padding-top: 3%;
+    padding-left: 20%;
+    cursor: pointer;
 }
