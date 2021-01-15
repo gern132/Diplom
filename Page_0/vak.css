@@ -15,25 +15,17 @@ body {
 }
 
 .header__block {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     margin-top: 3%;
-    margin-right: 3%;
+    margin-right: 5%;
     padding-bottom:10px ;
 }
 .header__circle {
-display: inline-block;
+margin-right: 1%;
 }
-
-.header__text {
-    color: #5A5A5A; 
-    font-size:calc(10px + 14 * (100vw / 1920));
-    font-family: Roboto;
-    width: calc(13px + 17 * (100vw / 1920));
-    border-radius: 50%;
-    background: #E9E9E9;
-    text-align: center;
-    padding:calc(3px + 5 * (100vw / 1920));
-    border: 2px solid #CFCECE;
+.header-img {
+    width: calc(15px + 25 * (100vw / 1920));
 }
 
 .header__button {
@@ -389,7 +381,7 @@ margin: 0 auto;
     width: 100%;
 }
 .footer__miniblock {
-    width: 770px;
+    width: calc(220px + 550 * (100vw / 1920));
     height: 85px;
     margin: 0 auto;
     text-align: center;
@@ -477,7 +469,7 @@ margin: 0 auto;
     height: 70px;
     width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     color: white;
     cursor: pointer;
@@ -697,6 +689,55 @@ margin: 0 auto;
     }
     .fab {
         font-size: 10px;
+    }
+    body {
+        background: none;  
+    }
+    .footer {
+        width: 100%;
+        height: 250px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 700px) {
+    .panel__store {
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .panel__block-apps {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .panel-imgapple {
+        width: 17px;
+    }
+    .panel-download {
+        font-size: 7px;
+    }    
+    .panel-store {
+        font-size: 10px;
+    }
+    .socilal__item {
+        width: 25px;
+        height: 25px;
+        border: solid 3px white;
+    }
+    .social {
+        height: 70px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+    .panel-head {
+        font-size: 12px;
+    }
+    .panel-advertising {
+        font-size: 8px;
+    }
+    .fab {
+        font-size: 8px;
     }
     body {
         background: none;  
